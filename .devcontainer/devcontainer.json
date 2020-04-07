@@ -17,5 +17,5 @@
   },
   // Add the IDs of extensions you want installed when the container is created in the array below.
   "extensions": ["esbenp.prettier-vscode"],
-  "postCreateCommand": "mkdir -p /home/node/.ssh && cp -r /home/node/.ssh-localhost/* /home/node/.ssh && chmod 700 /home/node/.ssh && chmod 600 /home/node/.ssh/*"
+  "postCreateCommand": "mkdir -p /home/node/.ssh && cp -r /home/node/.ssh-localhost/* /home/node/.ssh && chmod 700 /home/node/.ssh && chmod 600 /home/node/.ssh/* && npm install -g typescript ts-node"
 }
